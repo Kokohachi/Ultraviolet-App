@@ -34,8 +34,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "ultraviolet60"
-          entrypoint: "npm start"
+          project: "ultraviolet-48"
+          entrypoint: "src/index.js"
           root: ""
           
           

@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "ultraviolet-48"
-          entrypoint: "index.js"
+          entrypoint: "src/index.js"
           root: ""
           
           
